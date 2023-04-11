@@ -3,6 +3,78 @@ body {
 	background-color: #D99D8F !important;
 }
 
+
+.fontsup {
+	font-family: "mr-eaves-sans", sans-serif !important;
+	font-weight: 400 !important;
+	font-style: bold !important;
+	font-size: 50px;
+}
+
+.passive {
+	color: #F5E4E1 !important;
+}
+
+.active {
+	color: #F5E4E1 !important;
+	font-weight: bold !important;
+}
+
+.infobox {
+	background-color: #F5E4E1 !important;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.margin-persona {
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+.img-border-radius {
+	border-radius: 20px;
+}
+
+.bgimg {
+	margin-top: -800px;
+}
+
+#journey {
+	scroll-margin-top: 80px;
+}
+
+#support {
+	scroll-margin-top: 80px;
+}
+
+.test-button {
+	font-family: "mr-eaves-sans", sans-serif !important;
+	font-weight: 400 !important;
+	font-style: normal !important;
+	font-size: 30px !important;
+	color: #76949F !important;
+	border-color: #76949F !important;
+}
+
+.test-button:hover {
+	background-color: #76949F !important;
+	color: #F5E4E1 !important;
+}
+
+.text-backg {
+	color: #D99D8F !important;
+	background-color: #0E2440 !important;
+}
+
+.borderout {
+	border-color: #0E2440 !important;
+}
+
+.cf-button:hover {
+	background-color: #76949F !important;
+	color: #F5E4E1 !important;
+}
+
 .cta-margin-top {
 	margin-top: 100px;
 }
@@ -27,11 +99,42 @@ body {
 	font-size: 30px !important;
 	color: #F5E4E1 !important;
 	border-color: #F5E4E1 !important;
+	border-width: 3px !important;
+}
+
+.purely-button:hover {
+	font-family: "mr-eaves-sans", sans-serif !important;
+	font-weight: 400 !important;
+	font-style: normal !important;
+	font-size: 30px !important;
+	color: #76949F !important;
+	background-color: #F5E4E1 !important;
+}
+
+.cartfont {
+	font-family: "mr-eaves-sans", sans-serif !important;
+	font-weight: 400 !important;
+	color: #0E2440 !important;
+}
+
+.don-mar {
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.hover-bg:hover {
+	background-color: #D99D8F;
+	transition: 0.5s;
+}
+.hover-bg:not(:hover) {
+	background-color: #F5E4E1;
+	transition: 1s;
 }
 
 .bg-nav-purely {
-	background-color: #F5E4E1 !important;
+	background-color: #0E2440 !important;
 	border-radius: 100px;
+	margin-top: 20px;
 }
 
 .fullwidth {
@@ -75,15 +178,12 @@ body {
 	border-radius: 25px;
 }
 
-.imgdivi {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	width: 50%;
-	height: 75px;
-	object-fit: scale-down;
+.imgscale {
+	width: 200px;
+}
+
+.inline-div {
+	display: inline-block;
 }
 
 .maracc {
@@ -92,10 +192,51 @@ body {
 	margin-right: 100px;
 }
 
+.cf-button {
+	font-family: "mr-eaves-sans", sans-serif !important;
+	font-weight: 400 !important;
+	font-style: normal !important;
+	font-size: 30px !important;
+	color: #76949F !important;
+	border-color: #76949F !important;
+	width: 300px !important;
+}
+
+.team-margin {
+	margin-top: 110px;
+	margin-bottom: 50px;
+}
+
+.team-margin-btm {
+	margin-bottom: 110px;
+}
+
 footer {
 	margin-top: 50px;
 	padding: 50px;
 	background-color: #0E2440;
+}
+
+.pur-btn-out {
+	border-color: #76949F !important;
+	color: #76949F !important;
+	font-family: "mr-eaves-sans", sans-serif !important;
+	font-weight: 400 !important;
+	font-style: normal !important;
+	font-size: 30px !important;
+}
+
+.pur-btn-out:hover {
+	background-color: #76949F !important;
+	color: #F5E4E1 !important;
+}
+
+.height {
+	height: 151px !important;
+}
+
+.text-bg-primary {
+	background-color: #0E2440 !important;
 }
 
 .imgfooter {
@@ -105,4 +246,8 @@ footer {
 	width: 50%;
 	height: 150px;
 	object-fit: scale-down;
+}
+
+.paddon {
+	padding: 100px;
 }
