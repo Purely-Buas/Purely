@@ -3,6 +3,9 @@ body {
 	background-color: #D99D8F !important;
 }
 
+.marginvalues {
+	margin: 100px;
+}
 
 .fontsup {
 	font-family: "mr-eaves-sans", sans-serif !important;
@@ -66,6 +69,11 @@ body {
 	background-color: #0E2440 !important;
 }
 
+.textlight-backg {
+	color: #0E2440 !important;
+	background-color: #F5E4E1 !important;
+}
+
 .borderout {
 	border-color: #0E2440 !important;
 }
@@ -73,6 +81,10 @@ body {
 .cf-button:hover {
 	background-color: #76949F !important;
 	color: #F5E4E1 !important;
+}
+
+.martopper {
+	margin-top: 30px;
 }
 
 .cta-margin-top {
